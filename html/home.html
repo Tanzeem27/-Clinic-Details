@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/home.css">
+    <script src="../javascript/script.js"></script>
+</head>
+
+<body onload="loadHome()">
+    <div class="container">
+        <a class="admin shadow" href="./admin.html"></a>
+        <a class="sign-up shadow" href="./signup.html"></a>
+        <div class="header">Clinics</div>
+        <div class="clinic-front">
+            <div class="clinic shadow clinic-1" onclick="show('modal1')">
+                <span class="clinic-name" id="clinic_1"></span>
+            </div>
+            <div class="clinic shadow clinic-2" onclick="show('modal2')">
+                <span class="clinic-name" id="clinic_2"></span>
+            </div>
+            <div class="clinic shadow clinic-3" onclick="show('modal3')">
+                <span class="clinic-name" id="clinic_3"></span>
+            </div>
+        </div>
+
+        <div class="modal shadow hide" id="modal">
+            <div class="details box">
+                <span class="close" onclick="removeModal()">&#10006;</span>
+                <div class="name header"></div>
+                <div class="address"></div>
+                Specialization : <span class="specialist"></span>
+                <div class="docs">
+                    List of doctors :
+                    <ul>
+                        <li id="doc1"></li>
+                        <li id="doc2"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

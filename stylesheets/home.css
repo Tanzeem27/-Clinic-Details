@@ -1,0 +1,59 @@
+.clinic {
+  margin: 1rem;
+  width: 17rem;
+  height: 12rem;
+  cursor: pointer;
+}
+
+.clinic-1 {
+  background-image: url("../assets/c3.jpg");
+  background-size: cover;
+}
+.clinic-2 {
+  background-image: url("../assets/c4.png");
+  background-size: cover;
+}
+.clinic-3 {
+  background-image: url("../assets/c5.jpg");
+  background-size: cover;
+}
+
+.clinic-front {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.clinic-name {
+  position: relative;
+  top: 13rem;
+}
+
+.modal {
+  margin: 3rem 0 0 0;
+  padding: 1rem;
+}
+
+.address {
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.admin {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-image: url("../assets/c6.jpg");
+  background-size: cover;
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  font-size: 2rem;
+  right: 1rem;
+  cursor: pointer;
+}

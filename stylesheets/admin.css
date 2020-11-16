@@ -1,0 +1,40 @@
+.container {
+  margin: auto;
+  width: 30rem;
+}
+
+.home {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-image:url("../assets/c7.jpg");
+  background-size: cover;
+  outline: none;
+}
+
+table {
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 2rem 0 0 0;
+}
+
+td {
+  padding: 1rem;
+  font-size: 20px;
+  border-top: 1px solid black ;
+
+}
+
+.table-header {
+  color: rgba(0, 0, 0, 0.78);
+  font-size: 1.5em;
+}
+ body{
+ background-image: url("../assets/c1.jpg");
+ background-size: 1550px 800px;
+ }
+
+ 
